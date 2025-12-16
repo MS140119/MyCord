@@ -1,5 +1,3 @@
-# mycord Final Programming Assignment
-
 Implemented my own client for the `mycord` chat service. Utilize many aspects of typing, dynamic memory, IO, signals, networking, and mulithreading in C and Linux/Unix. Implemented a protocol using sockets on TCP IPv4, with associated error handling and argument parsing.
 
 
@@ -201,24 +199,6 @@ The markdown document you are reading now.
 
 ---
 
-
-1. **Test locally using the provided server:**
-   ```shell
-   # Terminal 1: Start the server
-   python3 server.py
-   # look at what port it started on (let's assume it's 1234)
-   
-   # Terminal 2: Run your client on the same machine
-   ./client --port 1234
-   
-   # Terminal 3: Run your client on a different machine
-   ./client --domain e5-cse-135-08.cse.psu.edu --port 1234
-   ```
-
-2. **Test on the classroom server:**
-   ```shell
-   ./client --domain mycord.devic.dev
-
    ```
 Tested various scenarios:
 - Valid message sending
@@ -231,3 +211,4 @@ Tested various scenarios:
 - Disconnect handling
 
 ---
+
